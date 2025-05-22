@@ -1,178 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakshi - Personal Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakshi - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="left">Sakshi's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <section class="firstsection">
-            <div class="leftsection">
-                Hi, My name is <span class="purple">Sakshi.</span>
-                <div>I am a passionate</div>
-        
-                <span id="element"></span>
-            </div>
-            <div class="rightsection">
-                <img src="img2.jpeg" alt="Web Development">
-            </div>
-        </section>
-        <hr>
+  <header>
+    <nav>
+  <div class="left">YourPortfolio</div>
+  <div class="right">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certificates</a></li> <!-- NEW -->
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-        <section id="about" class="about-section">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <img src="img1.jpg" alt="About Me">
-                <p>
-                    Hello! I am Sakshi, a passionate web developer with experience in creating dynamic and responsive websites. I specialize in HTML, CSS, JavaScript, and have a keen interest in learning new technologies. My goal is to build engaging and user-friendly web applications that make a difference.
-                    Currently, I am studying in VIIT, Pune, in the 3rd year of Artificial Intelligence and Data Science (AI&DS).
-                </p>
-            </div>
-        </section>
-        <hr>
+  </header>
 
-        <section id="work" class="secondsection">
-            <span class="text-gray">What I have done so far</span>
-            <h1>Projects</h1>
+  <main>
+    <!-- Hero Section -->
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My name is <span class="purple">Sakshi.</span>
+        <div>I am a passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <img src="img2.jpeg" alt="Web Developer" />
+      </div>
+    </section>
+    <hr />
 
-            <div class="box">
-                <a href="https://sakshivyavahare.github.io/amazon-clone/" class="vertical">
-                    <img class="image-top" src="work1.png" height="2rem" alt="Amazon clone">
-                    <div class="vertical-title">
-                        Amazon clone
-                    </div>
-                </a>
-                <a href="https://github.com/yourusername/netflix-clone" class="vertical">
-                    <img class="image-top" src="work2.png" height="2rem" alt="Netflix clone">
-                    <div class="vertical-title">
-                        Netflix clone
-                    </div>
-                </a>
-                <a href="https://sakshivyavahare.github.io/spotify-clone/" class="vertical">
-                    <img class="image-top" src="work3.png" alt="Spotify clone">
-                    <div class="vertical-title">
-                        Spotify clone
-                    </div>
-                </a>
-                <a href="https://sakshivyavahare.github.io/tic-tak-to/" class="vertical">
-                    <img class="image-top" src="work4.png" alt="Tic Tac Toe">
-                    <div class="vertical-title">
-                        Tic Tac Toe
-                    </div>
-                </a>
-                <a href="https://sakshivyavahare.github.io/stone-paper-scissor-game/" class="vertical">
-                    <img class="image-top" src="work5.png" alt="Rock Paper Scissors">
-                    <div class="vertical-title">
-                        Rock Paper Scissors
-                    </div>
-                </a>
-                <a href="https://sakshivyavahare.github.io/weather-app/" class="vertical">
-                    <img class="image-top" src="work6.jpg" alt="Weather App">
-                    <div class="vertical-title">
-                        Weather App
-                    </div>
-                </a>
-                <a href="https://sakshivyavahare.github.io/calculator-app/" class="vertical">
-                    <img class="image-top" src="work7.jpg" alt="Calculator App">
-                    <div class="vertical-title">
-                        Calculator App
-                    </div>
-                </a>
-                <a href="https://sakshivyavahare.github.io/travel-website/" class="vertical">
-                    <img class="image-top" src="work8.webp" alt="Travel website">
-                    <div class="vertical-title">
-                        Travel website
-                    </div>
-                </a>
-            </div>
-        </section>
-        <hr>
+    
 
-        <section id="skills" class="skills-section">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="skill">
-                    <h3>HTML</h3>
-                </div>
-                <div class="skill">
-                    <h3>CSS</h3>
-                </div>
-                <div class="skill">
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="skill">
-                    <h3>Node.js</h3>
-                </div>
-                <div class="skill">
-                    <h3>Power BI</h3>
-                </div>
-                <div class="skill">
-                    <h3>Python</h3>
-                </div>
-                <div class="skill">
-                    <h3>C \ C++</h3>
-                </div>
-                <div class="skill">
-                    <h3>Tablue</h3>
-                </div>
-            </div>
-        </section>
-        <hr>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="img1.jpg" alt="About Me" />
+        <p>
+          Hello! I am Sakshi, a passionate web developer with experience in creating dynamic and responsive websites. I specialize in HTML, CSS, JavaScript, and have a keen interest in learning new technologies.
+          Currently, I am studying in VIIT, Pune, in the 3rd year of Artificial Intelligence and Data Science (AI&DS).
+        </p>
+      </div>
+    </section>
+    <hr />
 
-        <section id="contact" class="contact-section">
-            <h2>Contact Me</h2>
-            <div class="contact-info">
-                <p><strong>Phone:</strong> 8806272646</p>
-                <p><strong>Email:</strong> sakshi.22211225@viit.ac.in</p>
-            </div>
-            <div class="social-links">
-                <a href=https://www.instagram.com/sakkk.shiiii/" target="_blank">Instagram</a>
-                <a href="hhttps://www.linkedin.com/in/sakshi-vyavahare-b0b58a258/" target="_blank">LinkedIn</a>
-                <a href="sakshi Resume 1.jpg" target="_blank">Resume</a>
-            </div>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-        <hr>
+    <!-- Work/Projects Section -->
+    <section id="work" class="secondsection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Projects</h1>
+      <div class="box">
+        <a href="https://sakshivyavahare.github.io/amazon-clone/" class="vertical">
+          <img class="image-top" src="work1.png" alt="Amazon clone" />
+          <div class="vertical-title">Amazon Clone</div>
+        </a>
+        <a href="https://github.com/yourusername/netflix-clone" class="vertical">
+          <img class="image-top" src="work2.png" alt="Netflix clone" />
+          <div class="vertical-title">Netflix Clone</div>
+        </a>
+        <a href="https://sakshivyavahare.github.io/spotify-clone/" class="vertical">
+          <img class="image-top" src="work3.png" alt="Spotify clone" />
+          <div class="vertical-title">Spotify Clone</div>
+        </a>
+        <a href="https://sakshivyavahare.github.io/tic-tak-to/" class="vertical">
+          <img class="image-top" src="work4.png" alt="Tic Tac Toe" />
+          <div class="vertical-title">Tic Tac Toe</div>
+        </a>
+        <a href="https://sakshivyavahare.github.io/stone-paper-scissor-game/" class="vertical">
+          <img class="image-top" src="work5.png" alt="Rock Paper Scissors" />
+          <div class="vertical-title">Rock Paper Scissors</div>
+        </a>
+        <a href="https://sakshivyavahare.github.io/weather-app/" class="vertical">
+          <img class="image-top" src="work6.jpg" alt="Weather App" />
+          <div class="vertical-title">Weather App</div>
+        </a>
+        <a href="https://sakshivyavahare.github.io/calculator-app/" class="vertical">
+          <img class="image-top" src="work7.jpg" alt="Calculator App" />
+          <div class="vertical-title">Calculator App</div>
+        </a>
+        <a href="https://sakshivyavahare.github.io/travel-website/" class="vertical">
+          <img class="image-top" src="work8.webp" alt="Travel website" />
+          <div class="vertical-title">Travel Website</div>
+        </a>
+      </div>
+    </section>
+    <hr />
 
-        <footer>
-            <p>&copy; 2024 Sakshi. All rights reserved.</p>
-        </footer>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+    <div class="box">
+  <div class="vertical">
+    <img src="img3.jpeg" alt="Project 1">
+    <div class="vertical-title">health-care--ai</div>
+    <div class="project-buttons">
+      <a href="https://kzmg2rezgagp5cey72w9.lite.vusercontent.net/" target="_blank" class="live-btn">View Live</a>
+      <a href="https://github.com/sakshivyavahare/health-care--ai" target="_blank" class="code-btn">View Code</a>
+    </div>
+  </div>
+
+  <div class="vertical">
+    <img src="img4.png" alt="Project 2">
+    <div class="vertical-title">MedVoxAI Assistant</div>
+    <div class="project-buttons">
+      <a href="https://aitrip.tubeguruji.com/" target="_blank" class="live-btn">View Live</a>
+      <a href="https://github.com/sakshivyavahare?tab=repositories" target="_blank" class="code-btn">View Code</a>
+    </div>
+  </div>
+  
+  <!-- Add more projects similarly -->
+</div>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill"><h3>HTML</h3></div>
+        <div class="skill"><h3>CSS</h3></div>
+        <div class="skill"><h3>JavaScript</h3></div>
+        <div class="skill"><h3>Node.js</h3></div>
+        <div class="skill"><h3>Power BI</h3></div>
+        <div class="skill"><h3>Python</h3></div>
+        <div class="skill"><h3>C / C++</h3></div>
+        <div class="skill"><h3>Tableau</h3></div>
+        <div class="skill"><h3>FIGMA</h3></div>
+      </div>
+    </section>
+    <hr />
+
+
+  <section class="certificates-section" id="certificates">
+  <h2>Certificates & Achievements</h2>
+  <div class="certificates-grid">
+    <!-- Certificate 1 -->
+    <div class="certificate-card">
+      <h3>AWS_Cloud_Architecting_Badge</h3>
+      <iframe src="certificates/AWS_Academy_Graduate___AWS_Academy_Cloud_Architecting_Badge20240904-6-ffxl9s.pdf" width="100%" height="300px"></iframe>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="certificate-card">
+      <h3>AWS_Cloud_Foundations_Badge</h3>
+      <iframe src="certificates/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge.pdf" width="100%" height="300px"></iframe>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="certificate-card">
+      <h3>Code Sprint certificate</h3>
+      <iframe src="certificates/certificate.pdf" width="100%" height="300px"></iframe>
+    </div>
+
+    <!-- Certificate 4 -->
+    <div class="certificate-card">
+      <h3>Microsoft Power BI Data Analyst</h3>
+      <iframe src="certificates/Coursera 6M9DYS0IR90V.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 5 -->
+    <div class="certificate-card">
+      <h3>Introduction to Blockchain</h3>
+      <iframe src="certificates/Coursera 1NN0SE78L0LO.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 6 -->
+    <div class="certificate-card">
+      <h3>Data Science and Machine Learning Internship</h3>
+      <iframe src="certificates/Internship+Data+Science+-+15days.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 7 -->
+    <div class="certificate-card">
+      <h3>AL-ML virtual internship</h3>
+      <iframe src="certificates/sakshi Sunil Vyavahare eduskill.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 8 -->
+    <div class="certificate-card">
+      <h3>Coding Interview Preparation</h3>
+      <iframe src="certificates/interview.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 9 -->
+    <div class="certificate-card">
+      <h3>Fundamentals of Deep Learning NVIDIA</h3>
+      <iframe src="certificates/nvidia certificate.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 10 -->
+    <div class="certificate-card">
+      <h3>Networking Basics</h3>
+      <iframe src="certificates/Networking_Basics_.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 11 -->
+    <div class="certificate-card">
+      <h3>Microsoft Power BI Certification</h3>
+      <iframe src="certificates/Udemy-certificate.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 12 -->
+    <div class="certificate-card">
+      <h3>Codsoft internship</h3>
+      <iframe src="certificates/certificate codesoft.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 11 -->
+    <div class="certificate-card">
+      <h3>cognorise infotech internship</h3>
+      <iframe src="certificates/cognorise infotech internship.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 12 -->
+    <div class="certificate-card">
+      <h3>Encryptix internship</h3>
+      <iframe src="certificates/completion certification.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 13 -->
+    <div class="certificate-card">
+      <h3>Build a website using gpt</h3>
+      <iframe src="certificates/Build a website using gpt.pdf" width="100%" height="300px"></iframe>
+    </div>
+    <!-- Certificate 14 -->
+    <div class="certificate-card">
+      <h3>Oops in Python</h3>
+      <iframe src="certificates/oops in python.pdf" width="100%" height="300px"></iframe>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p><strong>Phone:</strong> 8806272646</p>
+        <p><strong>Email:</strong> sakshi.22211225@viit.ac.in</p>
+      </div>
+      <div class="social-links">
+        <a href="https://www.instagram.com/sakkk.shiiii/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/sakshi-vyavahare-b0b58a258/" target="_blank">LinkedIn</a>
+        <a href="sakshi resume final.pdf" target="_blank">Resume</a>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Sakshi. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
